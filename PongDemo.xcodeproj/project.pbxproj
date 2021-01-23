@@ -15,6 +15,7 @@
 		66622CEA25BA065500555D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66622CE825BA065500555D2E /* LaunchScreen.storyboard */; };
 		66622CF525BA065600555D2E /* PongDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66622CF425BA065600555D2E /* PongDemoTests.swift */; };
 		66622D0025BA065700555D2E /* PongDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66622CFF25BA065700555D2E /* PongDemoUITests.swift */; };
+		66622D1725BA2CAB00555D2E /* cup.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 66622D1625BA2CAA00555D2E /* cup.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		66622CFB25BA065700555D2E /* PongDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66622CFF25BA065700555D2E /* PongDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongDemoUITests.swift; sourceTree = "<group>"; };
 		66622D0125BA065700555D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66622D1625BA2CAA00555D2E /* cup.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = cup.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				66622CE325BA065000555D2E /* Main.storyboard */,
 				66622CE625BA065500555D2E /* Assets.xcassets */,
 				66622CE825BA065500555D2E /* LaunchScreen.storyboard */,
+				66622D1625BA2CAA00555D2E /* cup.scnassets */,
 				66622CEB25BA065500555D2E /* Info.plist */,
 			);
 			path = PongDemo;
@@ -233,6 +236,7 @@
 			files = (
 				66622CEA25BA065500555D2E /* LaunchScreen.storyboard in Resources */,
 				66622CE725BA065500555D2E /* Assets.xcassets in Resources */,
+				66622D1725BA2CAB00555D2E /* cup.scnassets in Resources */,
 				66622CE525BA065000555D2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FCBX74E9;
 				INFOPLIST_FILE = PongDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quentin.PongDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z3FCBX74E9;
 				INFOPLIST_FILE = PongDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quentin.PongDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
